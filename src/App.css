@@ -4,7 +4,68 @@
 
 .header {
 
-  min-height: 100vh;
+  /* min-height: 100vh; */
 
 }
 
+.App-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+
+}
+
+.Social-media {
+  display: flex;
+  align-items: center;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  width: 900px;
+  padding: 25px;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+li {
+  font-size: 1.25em;
+  list-style: none;
+  margin: 10px;
+}
+
+input:checked + label{
+  color: red;
+  text-decoration: line-through;
+}
+
+.ingredients {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 900px;
+  height: 300px;
+  background-image: url('./assets/list-bg.png');
+}
+
+.author {
+  display: flex;
+  width: 900px;
+}
+
+button {
+  background-color: orange;
+  font-size: 1.25em;
+  color: white;
+  height: 75px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: 10px;
+  margin-top: 10px;
+}
